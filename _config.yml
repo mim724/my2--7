@@ -1,0 +1,24 @@
+title: my2--7
+description: content
+url: https://mim724.github.io
+baseurl: /my2--7
+timezone: Asia/Shanghai
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+# 百度自动推送：在页面中嵌入 push.js
+baidu_push: true
